@@ -33,9 +33,9 @@
     </template>
     
     <classpath>
+        <entry>file://path/to/acunu/jars</entry>
         <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&amp;g=io.cloudsoft.cloudera&amp;a=brooklyn-cdh&amp;v=1.2.0-SNAPSHOT&amp;e=jar</entry>
         <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&amp;g=io.cloudsoft.opengamma&amp;a=brooklyn-opengamma&amp;e=jar&amp;v=0.2.0-SNAPSHOT</entry>
-        <entry>file://path/to/acunu/jars</entry>
         <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&amp;g=io.brooklyn.example&amp;a=brooklyn-example-global-web-fabric&amp;v=0.6.0-SNAPSHOT&amp;e=jar</entry> <!--  BROOKLYN_VERSION  -->
         <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&amp;g=io.brooklyn.example&amp;a=brooklyn-example-simple-web-cluster&amp;v=0.6.0-SNAPSHOT&amp;e=jar</entry> <!--  BROOKLYN_VERSION  -->
         
