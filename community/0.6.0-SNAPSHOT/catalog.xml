@@ -27,7 +27,7 @@
         <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/opengamma-circle-icon.png</iconUrl>
     </template>
     
-    <template type="io.cloudsoft.opengamma.OpenGammaCluster" name="Cloud OpenGamma Cluster">
+    <template type="io.cloudsoft.opengamma.OpenGammaCluster" name="OpenGamma Cluster">
         <description>Deploys the OpenGamma financial analytics platform.</description>
         <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/opengamma-circle-icon.png</iconUrl>
     </template>
