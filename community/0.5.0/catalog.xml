@@ -12,14 +12,24 @@
         <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/cloudera-icon.jpeg</iconUrl>
     </template>
     
-    <template type="io.cloudsoft.socialapps.drupal.examples.BasicDrupalApp" name="Basic Drupal App">
-        <description>Brooklyn Social Apps - Basic. (Requires Debian)</description>
+    <template type="io.cloudsoft.socialapps.drupal.examples.BasicDrupalApp" name="Basic Drupal">
+        <description>Brooklyn Social Apps - Basic Drupal. (Requires Debian)</description>
         <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/drupal-icon.png</iconUrl>
     </template>
     
-    <template type="io.cloudsoft.socialapps.drupal.examples.ClusteredDrupalApp" name="Clustered Drupal App">
-        <description>Brooklyn Social Apps - Cluster. (Requires Debian)</description>
+    <template type="io.cloudsoft.socialapps.drupal.examples.ClusteredDrupalApp" name="Clustered Drupal">
+        <description>Brooklyn Social Apps - Drupal Cluster. (Requires Debian)</description>
         <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/drupal-text-icon.png</iconUrl>
+    </template>
+    
+    <template type="io.cloudsoft.socialapps.wordpress.examples.BasicWordpressApp" name="Basic Wordpress">
+        <description>Brooklyn Social Apps - Basic Wordpress.</description>
+        <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/wordpress-icon.png</iconUrl>
+    </template>
+    
+    <template type="io.cloudsoft.socialapps.wordpress.examples.ClusteredWordpressApp" name="Clustered Wordpress">
+        <description>Brooklyn Social Apps - Wordpress Cluster.</description>
+        <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/wordpress-icon.png</iconUrl>
     </template>
     
     <template type="brooklyn.demo.GlobalWebFabricExample" name="GeoDNS Web Fabric DB">
