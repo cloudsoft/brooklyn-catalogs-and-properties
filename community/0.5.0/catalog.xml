@@ -44,7 +44,7 @@
     
     <classpath>
         <entry>file://path/to/brooklyn-cdh/jars</entry>
-        <entry>file://path/to/brooklyn-social-apps/jars</entry>
+        <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&amp;g=io.cloudsoft.social-apps&amp;a=brooklyn-social-apps&amp;v=0.1.0-SNAPSHOT&amp;e=jar</entry>
         <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&amp;g=io.cloudsoft.mapr&amp;a=brooklyn-mapr&amp;v=0.0.1-SNAPSHOT&amp;e=jar</entry>
         <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&amp;g=io.cloudsoft.opengamma&amp;a=brooklyn-opengamma&amp;e=jar&amp;v=0.1.0-SNAPSHOT</entry>
         <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=releases&amp;g=io.brooklyn.example&amp;a=brooklyn-example-simple-web-cluster&amp;v=0.5.0&amp;e=jar</entry> <!-- BROOKLYN_VERSION -->
