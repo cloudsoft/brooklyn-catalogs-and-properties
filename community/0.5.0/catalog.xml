@@ -23,12 +23,12 @@
     </template>
     
     <template type="io.cloudsoft.socialapps.wordpress.examples.BasicWordpressApp" name="Basic Wordpress">
-        <description>Brooklyn Social Apps - Basic Wordpress.</description>
+        <description>Brooklyn Social Apps - Basic Wordpress. (Tested: CentOS)</description>
         <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/wordpress-icon.png</iconUrl>
     </template>
     
     <template type="io.cloudsoft.socialapps.wordpress.examples.ClusteredWordpressApp" name="Clustered Wordpress">
-        <description>Brooklyn Social Apps - Wordpress Cluster.</description>
+        <description>Brooklyn Social Apps - Wordpress Cluster. (Tested: CentOS)</description>
         <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/wordpress-icon.png</iconUrl>
     </template>
     
