@@ -1,6 +1,26 @@
 <catalog>
     <name>Brooklyn Community Projects 0.6.0-SNAPSHOT</name> <!--  BROOKLYN_VERSION  -->
-   
+	
+	<template type="io.cloudsoft.socialapps.drupal.examples.BasicDrupalApp" name="Basic Drupal">
+        <description>Brooklyn Social Apps - Basic Drupal. (Requires Debian)</description>
+        <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/drupal-icon.png</iconUrl>
+    </template>
+    
+    <template type="io.cloudsoft.socialapps.drupal.examples.ClusteredDrupalApp" name="Clustered Drupal">
+        <description>Brooklyn Social Apps - Drupal Cluster. (Requires Debian)</description>
+        <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/drupal-text-icon.png</iconUrl>
+    </template>
+    
+    <template type="io.cloudsoft.socialapps.wordpress.examples.BasicWordpressApp" name="Basic Wordpress">
+        <description>Brooklyn Social Apps - Basic Wordpress. (Tested: CentOS)</description>
+        <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/wordpress-icon.png</iconUrl>
+    </template>
+    
+    <template type="io.cloudsoft.socialapps.wordpress.examples.ClusteredWordpressApp" name="Clustered Wordpress">
+        <description>Brooklyn Social Apps - Wordpress Cluster. (Tested: CentOS)</description>
+        <iconUrl>http://downloads.cloudsoftcorp.com/brooklyn/catalog/logos/wordpress-icon.png</iconUrl>
+    </template>
+    
     <template type="io.cloudsoft.cloudera.SampleClouderaManagedCluster" name="Cloudera CDH4 Cluster">
         <description>Launches Cloudera Distribution for Hadoop Manager with a Cloudera Manager and an initial cluster of 4 CDH nodes
         (resizable) and default services including HDFS, MapReduce, and HBase</description>
@@ -34,6 +54,7 @@
     
     <classpath>
         <entry>file://path/to/acunu/jars</entry>
+        <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&amp;g=io.cloudsoft.social-apps&amp;a=brooklyn-social-apps&amp;v=0.1.0-SNAPSHOT&amp;e=jar</entry>
         <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&amp;g=io.cloudsoft.cloudera&amp;a=brooklyn-cdh&amp;v=1.2.0-SNAPSHOT&amp;e=jar</entry>
         <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&amp;g=io.cloudsoft.opengamma&amp;a=brooklyn-opengamma&amp;e=jar&amp;v=0.2.0-SNAPSHOT</entry>
         <entry>https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&amp;g=io.brooklyn.example&amp;a=brooklyn-example-global-web-fabric&amp;v=0.6.0-SNAPSHOT&amp;e=jar</entry> <!--  BROOKLYN_VERSION  -->
